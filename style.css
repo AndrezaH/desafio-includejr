@@ -1,0 +1,110 @@
+/*https://site112.com/tabela-cores-html*/
+#body{
+	background-color: white;
+	text-align:center;
+
+}
+#pagina{
+	/*border: 2px solid #4682B4;*/
+	text-align:left;
+	margin: auto;
+	padding: 10px;
+	height: 850px; /*altura*/
+	width: 900px;
+	position:relative;
+
+}
+#banner{
+	/*border: 2px solid #4682B4;*/
+	margin: 10px;
+	padding: 50px;
+	height: 15px;
+	width: 774px;
+	background-image: url(imagens/banner.jpg); 
+
+}
+#home{
+	border: 1px solid #5F9EA0;
+	margin:10px;
+	padding:10px;
+	height: 250px;
+	width: 204px;
+	float: left;
+       background-image: url(imagens/andreza.jpg); 
+}
+
+#corpo{
+	border: 1px solid #5F9EA0;
+	margin: 10px;
+	padding: 25px;
+	height: 600px;
+	width: 560px;
+	float: right;
+}
+#curriculo{
+	border: 1px solid #5F9EA0;
+	margin: 10px;
+	padding: 25px;
+	height: 600px;
+	width: 825px;
+	float: right;
+}
+p{
+	color: #5F9EA0;
+	font-family: Century Gothic;
+	font-size: 14px;
+}
+h1 {
+	color: #2F4F4F;
+	font-family: Century Gothic;
+	text-align: left;
+}
+h2{
+	color: #2F4F4F;
+	font-family: Century Gothic;
+	text-align: left;
+}
+h3{
+	color: #2F4F4F;
+	font-family: Century Gothic;
+	text-align: justify;
+}
+#menu li {
+    list-style:none;
+    color: #53777A;
+    text-align: left;
+    font-family: Century Gothic;
+    font-size: 10pt;
+    text-decoration: none;	
+}
+    a.link{
+        text-decoration: none;
+    }
+    a.hover{
+         text-decoration: underline;
+    }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-github {
+  background: #000;
+  color: white;
+}
